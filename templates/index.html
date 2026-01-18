@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html>(Waiting for Sensor) 
 <head>
     <title>My IoT Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,27 +28,27 @@
         </div>
     </div>
 
-    <div class="section-title">🚧 Air Quality (Waiting for Sensor) 🚧</div>
+    <div class="section-title">🚧 สถานีวัดคุณภาพอากาศ 🚧</div>
     <div class="container">
         <div class="card">
             <div class="label">PM 1.0</div>
-            <div class="val pm-val" id="pm1">Wait...</div>
+            <div class="val pm-val" id="pm1">รอAPI...</div>
             <div class="unit">µg/m³</div>
         </div>
         <div class="card">
             <div class="label">PM 2.5</div>
-            <div class="val pm-val" id="pm25">Wait...</div>
+            <div class="val pm-val" id="pm25">รอAPI...</div>
             <div class="unit">µg/m³</div>
         </div>
         <div class="card">
             <div class="label">PM 10</div>
-            <div class="val pm-val" id="pm10">Wait...</div>
+            <div class="val pm-val" id="pm10">รอAPI...</div>
             <div class="unit">µg/m³</div>
         </div>
     </div>
 
     <div class="footer">
-        Station Info: <span id="v">Loading...</span>
+        Station Info: <span id="v">รอAPI...</span>
     </div>
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>
